@@ -1,0 +1,113 @@
+.espacio{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.main-content{
+    width: 100%;
+    height: 60vh;
+    background-image: url('../img/dance_7.jpg');
+    background-size: cover;
+    background-position: center; /* Ajusta la posición del fondo al centro */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+
+}
+
+.text-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: inline-block; /* Hace que el contenedor se ajuste al tamaño del texto */
+    background-color: rgba(15, 26, 54, 0.5); /* Color azul */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+}
+
+.small{
+    font-size: 0.5em;
+}
+
+.text-weight {
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.patron-content {
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    background-image: url('../img/cubes.png');
+    background-repeat: repeat; /* Repite el patrón */
+    background-position: center; /* Ajusta la posición del fondo al centro */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+.patron-content2 {
+    width: 100%;
+    height: 35vh;
+    font-size: 15px;
+    background-image: url('../img/cubes.png');
+    background-repeat: repeat; /* Repite el patrón */
+    background-position: center; /* Ajusta la posición del fondo al centro */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+.pd{
+    padding: 50px !important;
+}
+
+.image-container {
+    position: relative;
+    height: 150px; /* Altura máxima */
+    overflow: hidden; /* Oculta el contenido adicional */
+}
+
+.max-height {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    top: 0;
+    left: 0;
+    transform-origin: top;
+}
+
+.text-weight2 {
+    font-weight:bolder;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.text-p {
+    font-size: 14px;
+}
+
+.form-content{
+    width: 100%;
+    height:120vh;
+    background-image: url(./../img/shoes_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.smg {
+    margin-left: 30px;
+}
+
+.bg-footer {
+    background-position: bottom;
+    background-color: #192951;
+    background-size: contain;
+    padding: 30px;
+    color: white; /* Color del texto */
+}

@@ -1,0 +1,69 @@
+.espacio{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.small{
+    font-size: 0.5em;
+}
+
+.text-weight {
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.text-h5 {
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.patron-content {
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    background-image: url('../img/old_wall.png');
+    background-repeat: repeat; /* Repite el patrón */
+    background-position: center; /* Ajusta la posición del fondo al centro */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+.pd{
+    padding: 50px !important;
+}
+
+.form-content{
+    width: 100%;
+    height:120vh;
+    background-image: url(./../img/shoes_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.bg-blog {
+    background-color: rgb(214, 214, 214);
+    background-size: contain;
+    padding: 30px;
+    color: white; /* Color del texto */
+}
+
+.image-container {
+    position: relative;
+    height: 150px; /* Altura máxima */
+    overflow: hidden; /* Oculta el contenido adicional */
+}
+
+.smg {
+    margin-left: 30px;
+}
+
+.bg-footer {
+    background-position: bottom;
+    background-color: #192951;
+    background-size: contain;
+    padding: 30px;
+    color: white; /* Color del texto */
+}

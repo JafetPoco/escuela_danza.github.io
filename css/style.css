@@ -1,0 +1,118 @@
+.text-weight {
+    font-weight: 600;
+    font-size:xx-large;
+}
+
+.espacio{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.size-lr{
+    font-size: 40px;
+}
+
+.small {
+    font-size: 10px;
+}
+
+.main-content{
+    width: 100%;
+    height:70vh;
+    background-image: url(./../img/dance_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.msg-content{
+    width: 100%;
+    background-image: url(./../img/textura_2.jpg);
+    background-size: contain;
+
+}
+
+.adorno {
+    width: 100%;
+    height:20vh;
+    background-image: url(./../img/decoration_1.png);
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+.double-content {
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+.half-background {
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#left-half {
+    left: 0;
+    background-image: url(./../img/instructor_4.jpg);
+}
+
+#right-half {
+    right: 0;
+    background-image: url(./../img/profesor_9.jpg);
+}
+
+.text-container {
+    position: absolute;
+    font-size: 40px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: inline-block; /* Hace que el contenedor se ajuste al tamaño del texto */
+    background-color: #192951; /* Color azul */
+    color: white; /* Color del texto */
+    padding: 10px; /* Espaciado interno */
+}
+
+.frase {
+    padding: 90px;
+}
+
+.bg-blue{
+    background-color: #192951;
+}
+
+.mg-70 {
+    margin: 70px;
+}
+
+.mgt-70 {
+    margin-top: 70px;
+}
+
+.smg {
+    margin-left: 30px;
+}
+
+.form-content{
+    width: 100%;
+    height:120vh;
+    background-image: url(./../img/shoes_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.bg-footer {
+    background-position: bottom;
+    background-color: #192951;
+    background-size: contain;
+    padding: 30px;
+    color: white; /* Color del texto */
+}

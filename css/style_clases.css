@@ -1,0 +1,104 @@
+.espacio{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.small{
+    font-size: 0.5em;
+}
+
+.text-weight {
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+.patron-content {
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    background-image: url('../img/textura_2.jpg');
+    background-repeat: repeat; /* Repite el patrón */
+    background-position: center; /* Ajusta la posición del fondo al centro */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+.pd{
+    padding: 50px !important;
+}
+
+.pd-m{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.main-content{
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center; /* Ajusta la posición del fondo al centro */
+    justify-content: center; /* Centra horizontalmente el contenido */
+    align-items: center; /* Centra verticalmente el contenido */
+}
+
+#ballet {
+    background-image: url('../img/dance_12.jpg');
+}
+
+#modern {
+    background-image: url('../img/breakdance.jpg');
+}
+
+#jazz {
+    background-image: url('../img/lirical-jazz.jpg');    
+}
+
+#arabic {
+    background-image: url('../img/arabe.jpg');
+}
+
+#kids {
+    background-image: url('../img/little.jpg');
+}
+
+#yoga {
+    background-image: url('../img/yoga.jpg');
+}
+
+.text-inside {
+    background-color: rgba(0, 0, 0, 0.548);
+    padding: 30px;
+    text-align: center;
+    transform: translateY(75%);
+    color: white; /* Color del texto */
+    margin: 30px; /* Centra horizontalmente */
+    
+}
+
+.text-h3 {
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.form-content{
+    width: 100%;
+    height:120vh;
+    background-image: url(./../img/shoes_1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+
+.smg {
+    margin-left: 30px;
+}
+
+.bg-footer {
+    background-position: bottom;
+    background-color: #192951;
+    background-size: contain;
+    padding: 30px;
+    color: white; /* Color del texto */
+}
